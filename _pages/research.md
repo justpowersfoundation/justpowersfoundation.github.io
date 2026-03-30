@@ -34,7 +34,7 @@ The Just Powers Foundation produces original research on issues of liberty, gove
 
 ## Research Areas
 
-- **Constitutional Law**: Analysis of constitutional limits on government power
+- **Just Powers Principles**: Analysis of universal principles from the Declaration of Independence
 - **Economic Policy**: Studies on free markets and economic freedom
 - **Property Rights**: Examination of property rights in emerging contexts
 - **Regulatory Reform**: Proposals for reducing regulatory burdens
