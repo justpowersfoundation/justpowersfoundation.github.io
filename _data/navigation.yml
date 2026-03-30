@@ -1,0 +1,21 @@
+# Navigation menu items
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /about/#contact
+
+# Footer navigation
+footer:
+  - title: "Privacy Policy"
+    url: /privacy/
+  - title: "Terms of Use"
+    url: /terms/
+  - title: "Contact"
+    url: /about/#contact

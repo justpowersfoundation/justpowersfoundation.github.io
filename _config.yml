@@ -1,0 +1,127 @@
+# Just Powers Foundation Jekyll Configuration
+# Preview locally: bundle install && bundle exec jekyll serve
+# Push to GitHub: git add . && git commit -m "Initialize Jekyll theme" && git push
+
+# Site settings
+title: "Just Powers Foundation"
+description: "Advancing liberty through rigorous research, policy analysis, and public education on individual rights, free markets, and limited government."
+url: "https://justpowersfoundation.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: "/research/:name/"
+  about:
+    output: true
+  team:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+# Author
+author:
+  name: "Just Powers Foundation"
+  bio: "Dedicated to promoting individual liberty, free markets, and constitutional governance."
+  location: "United States"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://justpowersfoundation.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/justpowersfdn"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/justpowersfoundation"
+
+# Social sharing
+twitter:
+  username: justpowersfdn
+
+# SEO
+social:
+  name: Just Powers Foundation
+  links:
+    - https://twitter.com/justpowersfdn
+    - https://linkedin.com/company/justpowersfoundation
+
+# Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/justpowersfdn"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/justpowersfoundation"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
+
+# Include/exclude
+include:
+  - _pages
+exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# GitHub Pages
+repository: justpowersfoundation/justpowersfoundation.github.io
+github_username: justpowersfoundation
+
+# Favicon placeholder - replace with actual favicon.ico in root
+# favicon: "/favicon.ico"
