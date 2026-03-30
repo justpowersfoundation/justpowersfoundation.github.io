@@ -1,9 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.3"
-gem "minimal-mistakes-jekyll"
+gem "jekyll", "~> 3.9"
 gem "jekyll-feed"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
-gem "jekyll-archives"
 gem "jekyll-paginate"

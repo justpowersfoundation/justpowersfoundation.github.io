@@ -1,6 +1,6 @@
 # Just Powers Foundation Jekyll Configuration
 # Preview locally: bundle install && bundle exec jekyll serve
-# Push to GitHub: git add . && git commit -m "Initialize Jekyll theme" && git push
+# Push to GitHub: git add . && git commit -m "Fix theme compatibility" && git push
 
 # Site settings
 title: "Just Powers Foundation"
@@ -8,16 +8,14 @@ description: "Advancing liberty through rigorous research, policy analysis, and 
 url: "https://justpowersfoundation.github.io"
 baseurl: ""
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+# Theme - Using Cayman theme (GitHub Pages compatible, professional look)
+theme: jekyll-theme-cayman
 
 # Plugins (GitHub Pages compatible)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-archives
   - jekyll-paginate
 
 # Pagination
@@ -33,26 +31,6 @@ collections:
     output: true
   team:
     output: true
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  - scope:
-      path: ""
-      type: "research"
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
 # Author
 author:
@@ -93,18 +71,6 @@ footer:
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "/feed.xml"
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: "/categories/:name/"
-    tag: "/tags/:name/"
 
 # Include/exclude
 include:
