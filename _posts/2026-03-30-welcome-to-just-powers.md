@@ -10,7 +10,7 @@ Welcome to the official website of the Just Powers Foundation! We're excited to 
 
 ## Who We Are
 
-The Just Powers Foundation is a new nonprofit think tank dedicated to advancing liberty through rigorous research and policy analysis. Our mission is to promote individual rights, free markets, and the universal principles of just powers as articulated in the Declaration of Independence.
+The Just Powers Foundation is a new nonprofit think tank dedicated to advancing liberty through rigorous research and policy analysis. Our mission is to promote the universal principles of just powers as articulated in the Declaration of Independence, recognizing that free markets are their natural consequence.
 
 ## What We Do
 

@@ -7,7 +7,7 @@ classes: wide
 <div class="hero">
   <div class="hero__content">
     <h1>Advancing Liberty Through Research & Policy</h1>
-    <p class="hero__description">The Just Powers Foundation promotes individual rights, free markets, and the universal principles of just powers as articulated in the Declaration of Independence.</p>
+    <p class="hero__description">The Just Powers Foundation promotes the universal principles of just powers as articulated in the Declaration of Independence, with free markets as their natural consequence.</p>
     <div class="hero__actions">
       <a href="/research/" class="btn btn--primary btn--large">Explore Our Research</a>
       <a href="/about/" class="btn btn--secondary btn--large">Learn About Us</a>
@@ -35,6 +35,6 @@ classes: wide
 
 <section class="mission">
   <h2>Our Mission</h2>
-  <p>The Just Powers Foundation is dedicated to advancing liberty by conducting original research, publishing policy analyses, and educating the public on the universal principles of just powers as articulated in the Declaration of Independence. We believe that a free society requires both intellectual rigor and public engagement.</p>
+  <p>The Just Powers Foundation is dedicated to advancing liberty by conducting original research, publishing policy analyses, and educating the public on the universal principles of just powers as articulated in the Declaration of Independence. We believe that free markets are the natural consequence of recognizing just powers, and that a free society requires both intellectual rigor and public engagement.</p>
   <a href="/about/" class="btn btn--info">Read More About Our Work</a>
 </section>

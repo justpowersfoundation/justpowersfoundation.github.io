@@ -28,7 +28,7 @@ The Declaration of Independence is not bound by national borders or specific gov
 ## Modern Applications
 
 ### Economic Policy
-Just powers principles require that economic interventions be strictly limited to protecting natural rights. Policies that redistribute wealth or regulate voluntary transactions without clear justification in rights protection exceed just powers.
+Just powers principles require that economic interventions be strictly limited to protecting natural rights. Free markets are the natural consequence of recognizing just powers - when governments respect the boundaries of their authority, voluntary exchange and economic freedom flourish. Policies that redistribute wealth or regulate voluntary transactions without clear justification in rights protection exceed just powers.
 
 ### International Relations
 The universal nature of just powers principles means they apply to international organizations and treaties. No supranational authority can claim legitimacy without the consent of affected individuals.

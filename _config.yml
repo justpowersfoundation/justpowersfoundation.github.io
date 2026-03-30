@@ -4,7 +4,7 @@
 
 # Site settings
 title: "Just Powers Foundation"
-description: "Advancing liberty through rigorous research, policy analysis, and public education on individual rights, free markets, and the universal principles of just powers as articulated in the Declaration of Independence."
+description: "Advancing liberty through rigorous research, policy analysis, and public education on the universal principles of just powers as articulated in the Declaration of Independence, with free markets as their natural consequence."
 url: "https://justpowersfoundation.github.io"
 baseurl: ""
 
@@ -35,7 +35,7 @@ collections:
 # Author
 author:
   name: "Just Powers Foundation"
-  bio: "Dedicated to promoting individual liberty, free markets, and the universal principles of just powers from the Declaration of Independence."
+  bio: "Dedicated to promoting the universal principles of just powers from the Declaration of Independence, with free markets as their natural consequence."
   location: "United States"
   links:
     - label: "Website"
